@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tea House</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leagal Solution</title>
 
-    <!-- Man Rope Font -->
+  <!-- Man Rope Font -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-<style>
+  <style>
     .manropefont {
-        font-family: 'Manrope', sans-serif;
-
+      font-family: 'Manrope', sans-serif;
     }
-    
-</style>
 
-<!-- Tailwind and Daisy CDN  -->
+    .our-btn {
+      border-radius: 0.5rem;
+      background: #B68C5A;
+    }
+  </style>
 
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+  <!-- font awsome cdn -->
 
-<!-- Tailwind custom -->
+  <script src="https://kit.fontawesome.com/d425d8e87c.js" crossorigin="anonymous"></script>
 
-<script>
+
+  <!-- Tailwind and Daisy CDN  -->
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind custom -->
+
+  <script>
     tailwind.config = {
       theme: {
         extend: {
@@ -39,20 +48,173 @@
   </script>
 
 </head>
-<body>
 
-    <header class="container mx-auto">
+<body class="manropefont">
 
-       
+  <header >
 
-    </header>
-    
-    <main >
+    <nav class="container mx-auto mt-3">
 
-    </main>
+      <!-- Nav bar -->
 
-    <footer>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="text-center">
+            <img src="images/logo2.png" alt="">
+          </div>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>Service <i class="text-xs fa-solid fa-chevron-right "></i></a></li>
+            <li><a>Cases <i class="text-xs fa-solid fa-chevron-right"></i></a></li>
+            <li><a>Blog <i class="text-xs fa-solid fa-chevron-right"></i></a></li>
+            <li><a>Contact us <i class="text-xs fa-solid fa-chevron-right"></i> </a> </li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-[#B68C5A] text-white">Free consultation</a>
+        </div>
+      </div>
 
-    </footer>
+      <!-- nav ends -->
+
+
+    </nav>
+
+
+
+
+
+
+
+  </header>
+
+  <main>
+
+    <!-- hero section -->
+
+    <section class="container mx-auto mt-5">
+      <div class="hero w-auto place-items-stretch">
+
+        <img src="images/banner.png" alt="">
+
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="w-auto">
+            <h1 class="mb-5 text-5xl font-extrabold text-white">
+              We Provide Effective <br>
+              Legal Solutions</h1>
+            <p class="mb-5 text-white">
+              There are many variations of passages of Lorem Ipsum available, but the majority <br>
+              have suffered alteration in some form, by injected humour.</p>
+
+              <div class="">
+                <input class="input input-bordered join-item mr-6" placeholder="Search your service"/>
+                <button class="btn join-item bg-[#B68C5A] text-white border-none">Search</button>
+              </div>
+
+          </div>
+        </div>
+      </div>
+</section>
+
+
+<section class="container mx-auto mt-10 ">
+
+    <!-- legal pacetice area -->
+    <div class="text-center">
+
+      <h3 class="text-4xl font-extrabold mb-3">The Legal Practice Area</h3>
+    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+      <br>
+       suffered alteration in some form, by injected humour.</p>
+
+    </div>
+
+
+    <div class="grid grid-cols-3 mt-4 gap-5">
+
+
+      <div class="card bg-base-100 shadow-xl pt-6">
+        <figure><img src="/images/business.png" alt="" /></figure>
+        <div class="card-body items-center">
+          <h2 class="card-title">Business Law</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-base-100 shadow-xl pt-6">
+        <figure><img src="/images/business.png" alt="" /></figure>
+        <div class="card-body items-center">
+          <h2 class="card-title">Business Law</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-base-100 shadow-xl pt-6">
+        <figure><img src="/images/business.png" alt="" /></figure>
+        <div class="card-body items-center">
+          <h2 class="card-title">Business Law</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-base-100 shadow-xl pt-6">
+        <figure><img src="/images/business.png" alt="" /></figure>
+        <div class="card-body items-center">
+          <h2 class="card-title">Business Law</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-base-100 shadow-xl pt-6">
+        <figure><img src="/images/business.png" alt="" /></figure>
+        <div class="card-body items-center">
+          <h2 class="card-title">Business Law</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-base-100 shadow-xl pt-6">
+        <figure><img src="/images/business.png" alt="" /></figure>
+        <div class="card-body items-center">
+          <h2 class="card-title">Business Law</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+</section>
+
+
+  </main>
+
+  <footer>
+
+  </footer>
 </body>
+
 </html>
